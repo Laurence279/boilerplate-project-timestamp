@@ -22,7 +22,6 @@ app.get("/api", function (req, res) {
   const date = new Date();
   const timestamp = getTimestampObject(date);
   res.json(timestamp);
-
 })
 
 // your first API endpoint... 
